@@ -5,7 +5,6 @@ WORKDIR /home/app/
 VOLUME /var/run/docker.sock /var/run/docker.sock
 
 RUN apk update
-RUN apk update
 RUN apk add git
 RUN apk add jq
 RUN apk add maven
